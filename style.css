@@ -1,0 +1,57 @@
+<style>
+    body{
+        margin: 0px;
+    }
+    #active{
+        color:black;
+    }
+
+    .saw{
+        color:black;
+    }
+
+    a {
+        color:black;
+        text-decoration: none;
+    }
+
+  
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    ol{
+        border-right: 1px solid gray;
+        width:100px;
+        margin: 0px;
+        padding: 20px;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+        padding-left: 33px;
+    }
+    #grid #article{
+        padding-left: 20px;
+    }
+
+    @media(max-width:800px){
+        #grid{
+        display: block;
+        }
+        ol{
+            text-align:center;
+            width: auto;
+            border-right: none;
+            border-bottom: 1px solid gray;
+        }
+    } 
+    
+
+</style>
